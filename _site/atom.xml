@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Thoughtgeek</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2020-06-21T13:32:21+05:30</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name></name>
+   <email>contact@thoughtgeek.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Hello world, thoughtgeek's blog is here</title>
+   <link href="http://localhost:4000/2020/06/21/hello-world"/>
+   <updated>2020-06-21T00:00:00+05:30</updated>
+   <id>http://localhost:4000/2020/06/21/Hello-world</id>
+   <content type="html">&lt;p&gt;I have been thinking of starting a blog to jot down all my thoughts in one place and finally I got the time to start this blog. After a very long deliberation with myself about what blogging framework to use, I finally concluded that &lt;code&gt;Jekyll + Github Pages&lt;/code&gt; is the best way to start with this journey.&lt;/p&gt;
+
+&lt;p&gt;Hope the articles that I write on this blog would be useful to fellow developers and I can be a useful drop in the ocean of the internet.&lt;/p&gt;
+
+&lt;p&gt;Thanks for being here. Happy coding!&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

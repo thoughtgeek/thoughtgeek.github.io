@@ -1,0 +1,37 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Thoughtgeek",
+    "home_page_url": "http://localhost:4000/",
+    "feed_url": "http://localhost:4000/feed.json",
+    "description": "another human trying to tame machines",
+    "icon": "http://localhost:4000/apple-touch-icon.png",
+    "favicon": "http://localhost:4000/favicon.ico",
+    "expired": false,
+    
+    "author": "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>"contact@thoughtgeek.com", "url"=>nil}",
+    
+"items": [
+    
+        {
+            "id": "http://localhost:4000/2020/06/21/hello-world",
+            "title": "Hello world, thoughtgeek's blog is here",
+            "summary": "This initiates the blog",
+            "content_text": "I have been thinking of starting a blog to jot down all my thoughts in one place and finally I got the time to start this blog. After a very long deliberation with myself about what blogging framework to use, I finally concluded that Jekyll + Github Pages is the best way to start with this journey.Hope the articles that I write on this blog would be useful to fellow developers and I can be a useful drop in the ocean of the internet.Thanks for being here. Happy coding!",
+            "content_html": "<p>I have been thinking of starting a blog to jot down all my thoughts in one place and finally I got the time to start this blog. After a very long deliberation with myself about what blogging framework to use, I finally concluded that <code>Jekyll + Github Pages</code> is the best way to start with this journey.</p><p>Hope the articles that I write on this blog would be useful to fellow developers and I can be a useful drop in the ocean of the internet.</p><p>Thanks for being here. Happy coding!</p>",
+            "url": "http://localhost:4000/2020/06/21/hello-world",
+            
+            
+            
+            
+            
+            "date_published": "2020-06-21T00:00:00+05:30",
+            "date_modified": "2020-06-21T00:00:00+05:30",
+            
+                "author": 
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>"contact@thoughtgeek.com", "url"=>nil}"
+                
+            
+        }
+    
+    ]
+}
