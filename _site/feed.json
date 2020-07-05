@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "http://localhost:4000/2020/07/01/clean-code-2",
+            "title": "Clean code - [Part 2]",
+            "summary": "Clean code - Chapter 2, 3",
+            "content_text": "Book summary seriesChapter 2: NamingSince naming is something that we as programmers are doing all the time, we better do it right. Here are couple of tips that Uncle Bob has for naming things.  Use Intention revealing names  Avoid Disinformation (Avoid any confusing names)  Make meaningful distinctions (Examples to avoid: a1,a2… or money, moneyAmount)  Use pronouceable names  Use Searchable Names  Avoid Encodings Uncle Bob elaborated on this point mentioning that encoding type or scope information is a bad idea. He mentions multiple notations like - Hungarian Notation, Member prefixes, Interfaces and Implementations.  Avoid Mental Mapping (Avoid using single letter variables or anything that doesn’t represent what it refers to)  Class names shouldn’t be a verb  Try starting method names with verbs  Dont use clever or cute names which can only be understood by some  Pick one word per concept  Pick one concept per word  Use solution domain words (Use words comprehendable for any programmer)  Use problem domain words (Use words specific to the problem to the relevant code)  Add meaningful context  Avoid gratuitous context (Dont add what you dont need to)Summary:Naming is hard. It would take some time to get used to all these general rules. The rule of thumb is to make naming meaningful and short, just the way you would want to read when you come back to your code after 3 months.",
+            "content_html": "<h1 id=\"book-summary-series\">Book summary series</h1><h1 id=\"chapter-2-naming\">Chapter 2: Naming</h1><p>Since naming is something that we as programmers are doing all the time, we better do it right. Here are couple of tips that Uncle Bob has for naming things.</p><ul>  <li><strong>Use Intention revealing names</strong></li>  <li><strong>Avoid Disinformation</strong> (Avoid any confusing names)</li>  <li><strong>Make meaningful distinctions</strong> (<em>Examples to avoid:</em> a1,a2… or money, moneyAmount)</li>  <li><strong>Use pronouceable names</strong></li>  <li><strong>Use Searchable Names</strong></li>  <li><strong>Avoid Encodings</strong> Uncle Bob elaborated on this point mentioning that encoding type or scope information is a bad idea. He mentions multiple notations like - <em>Hungarian Notation, Member prefixes, Interfaces and Implementations.</em></li>  <li><strong>Avoid Mental Mapping</strong> (Avoid using single letter variables or anything that doesn’t represent what it refers to)</li>  <li><strong>Class names shouldn’t be a verb</strong></li>  <li><strong>Try starting method names with verbs</strong></li>  <li><strong>Dont use clever or cute names which can only be understood by some</strong></li>  <li><strong>Pick one word per concept</strong></li>  <li><strong>Pick one concept per word</strong></li>  <li><strong>Use solution domain words</strong> (Use words comprehendable for any programmer)</li>  <li><strong>Use problem domain words</strong> (Use words specific to the problem to the relevant code)</li>  <li><strong>Add meaningful context</strong></li>  <li><strong>Avoid gratuitous context</strong> (Dont add what you dont need to)</li></ul><h4 id=\"summary\">Summary:</h4><p><em>Naming is hard. It would take some time to get used to all these general rules. The rule of thumb is to make naming meaningful and short, just the way you would want to read when you come back to your code after 3 months.</em></p>",
+            "url": "http://localhost:4000/2020/07/01/clean-code-2",
+            
+            
+            
+            
+            
+            "date_published": "2020-07-01T00:00:00+05:30",
+            "date_modified": "2020-07-01T00:00:00+05:30",
+            
+                "author": 
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>"contact@thoughtgeek.com", "url"=>nil}"
+                
+            
+        },
+    
+        {
             "id": "http://localhost:4000/2020/07/01/clean-code-1",
             "title": "Clean code - [Part 1]",
             "summary": "Clean code - Chapter 1",

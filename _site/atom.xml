@@ -4,13 +4,48 @@
  <title>Thoughtgeek</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-07-05T16:33:44+05:30</updated>
+ <updated>2020-07-05T17:57:18+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
    <email>contact@thoughtgeek.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Clean code - [Part 2]</title>
+   <link href="http://localhost:4000/2020/07/01/clean-code-2"/>
+   <updated>2020-07-01T00:00:00+05:30</updated>
+   <id>http://localhost:4000/2020/07/01/Clean-code-2</id>
+   <content type="html">&lt;h1 id=&quot;book-summary-series&quot;&gt;Book summary series&lt;/h1&gt;
+
+&lt;h1 id=&quot;chapter-2-naming&quot;&gt;Chapter 2: Naming&lt;/h1&gt;
+&lt;p&gt;Since naming is something that we as programmers are doing all the time, we better do it right. Here are couple of tips that Uncle Bob has for naming things.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Use Intention revealing names&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Avoid Disinformation&lt;/strong&gt; (Avoid any confusing names)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Make meaningful distinctions&lt;/strong&gt; (&lt;em&gt;Examples to avoid:&lt;/em&gt; a1,a2… or money, moneyAmount)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use pronouceable names&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use Searchable Names&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Avoid Encodings&lt;/strong&gt;
+ Uncle Bob elaborated on this point mentioning that encoding type or scope information is a bad idea. He mentions multiple notations like - &lt;em&gt;Hungarian Notation, Member prefixes, Interfaces and Implementations.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Avoid Mental Mapping&lt;/strong&gt; (Avoid using single letter variables or anything that doesn’t represent what it refers to)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Class names shouldn’t be a verb&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Try starting method names with verbs&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Dont use clever or cute names which can only be understood by some&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pick one word per concept&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pick one concept per word&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use solution domain words&lt;/strong&gt; (Use words comprehendable for any programmer)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use problem domain words&lt;/strong&gt; (Use words specific to the problem to the relevant code)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Add meaningful context&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Avoid gratuitous context&lt;/strong&gt; (Dont add what you dont need to)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;summary&quot;&gt;Summary:&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Naming is hard. It would take some time to get used to all these general rules. The rule of thumb is to make naming meaningful and short, just the way you would want to read when you come back to your code after 3 months.&lt;/em&gt;&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Clean code - [Part 1]</title>
