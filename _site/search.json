@@ -2,12 +2,12 @@
   
     {
 
-      "title"    : "Hello world, thoughtgeek&#39;s blog is here",
-      "url"      : "/2020/06/21/hello-world",
+      "title"    : "Clean code - [Part 1]",
+      "url"      : "/2020/07/01/clean-code-1",
       "category" : "",
-      "tags"     : "Intro",
-      "date"     : "2020-06-21 00:00:00 +0530",
-      "discription" : "This initiates the blog"
+      "tags"     : "Clean-code",
+      "date"     : "2020-07-01 00:00:00 +0530",
+      "discription" : "Clean code - Chapter 1"
 
     } 
   

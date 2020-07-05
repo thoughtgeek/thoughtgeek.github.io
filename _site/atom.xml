@@ -4,7 +4,7 @@
  <title>Thoughtgeek</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-06-21T13:32:21+05:30</updated>
+ <updated>2020-07-05T16:33:44+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -13,15 +13,71 @@
 
  
  <entry>
-   <title>Hello world, thoughtgeek's blog is here</title>
-   <link href="http://localhost:4000/2020/06/21/hello-world"/>
-   <updated>2020-06-21T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2020/06/21/Hello-world</id>
-   <content type="html">&lt;p&gt;I have been thinking of starting a blog to jot down all my thoughts in one place and finally I got the time to start this blog. After a very long deliberation with myself about what blogging framework to use, I finally concluded that &lt;code&gt;Jekyll + Github Pages&lt;/code&gt; is the best way to start with this journey.&lt;/p&gt;
+   <title>Clean code - [Part 1]</title>
+   <link href="http://localhost:4000/2020/07/01/clean-code-1"/>
+   <updated>2020-07-01T00:00:00+05:30</updated>
+   <id>http://localhost:4000/2020/07/01/Clean-code-1</id>
+   <content type="html">&lt;h1 id=&quot;book-summary-series&quot;&gt;Book summary series&lt;/h1&gt;
+&lt;h3 id=&quot;a-handbook-of-agile-software-craftsmanship-by-robert-c-martin&quot;&gt;A Handbook of Agile Software Craftsmanship by Robert C. Martin&lt;/h3&gt;
 
-&lt;p&gt;Hope the articles that I write on this blog would be useful to fellow developers and I can be a useful drop in the ocean of the internet.&lt;/p&gt;
+&lt;p&gt;Clean code is an awesome book written by Uncle Bob and he absolutely nails it when he talks about the basic principles of writing well thought out human readable code. I thought I would make a small collection of takeaways from great books and I decided to start with this classic more like a reference for myself, but would be great to know if it helped someone else on thier journey.&lt;/p&gt;
 
-&lt;p&gt;Thanks for being here. Happy coding!&lt;/p&gt;
+&lt;h1 id=&quot;chapter-1-clean-code&quot;&gt;Chapter 1: Clean code&lt;/h1&gt;
+&lt;p&gt;The first chapter was mostly a dialogue between the author and the reader. He(the author henceforth) broadly talks about these points.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;There will be code&lt;/strong&gt; 
+  He argues that code is always going to exist. No matter whatever fancy future code churning AI comes out, we will always need code as means to fine tune software to the ultimate precision and objectivity to fulfill rules written by humans in our own language.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Bad Code&lt;/strong&gt;
+  Here he emphasizes on the LeBlanc’s law: &lt;em&gt;Later equals never&lt;/em&gt;. He talks about how we end up writing bad code or code that is difficult to read and comprehend quickly due to various practical constraints of working at a technology company and even cited a &lt;em&gt;killer app&lt;/em&gt; in 80s that went down because of their messy code.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Total cost of owning a mess&lt;/strong&gt;
+  He talks how code keeps getting tangled with time and addition of new members working with the code and experienced members leaving the organisation. This ultimately leads to the next point.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;The Grand Redesign in the Sky&lt;/strong&gt;
+  Too many problems, lets start redesigning our systems. However when the redesign happens, it has to keep pace with the existing legacy system. This can take a while to complete and by the time, half of the original people starting the redesign have left the firm.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Attitude&lt;/strong&gt;
+  We should own up to the fact that we are the ones who keep writing messy code for whatever reason and that should change.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;The art of clean code&lt;/strong&gt;
+  Clean code is more like an acquired taste over time of defining what is ‘clean’ and what is not. Everyone might not be easily able to write clean code but should have the eye to spot clean and unclean code.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-is-clean-code&quot;&gt;What is Clean code?&lt;/h3&gt;
+&lt;p&gt;Clean code has been defined in many ways. There are some mentions of what clean code means to some of the brightest minds of the tech industry.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Bjarne Stroustrup, inventor of C++:&lt;/strong&gt;
+&lt;em&gt;I like my code to be elegant and efficient. The logic should be straightforward and make it hard for bugs to hide, the dependencies minimal to ease maintenance, error handling complete according to an articulated strategy, and performance close to optimal so as not to tempt people to make the code messy with unprincipled optimizations. Clean code does one thing well.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Grady Booch, author of Object-Oriented Analysis and Design with Applications:&lt;/strong&gt;
+&lt;em&gt;Clean code is simple and direct. Clean code reads like well-written prose. Clean code never obscures the designers’ intent but rather is full of crisp abstractions and straightforward lines of control.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;“Big” Dave Thomas, founder of OTI and godfather of the Eclipse strategy:&lt;/strong&gt;
+&lt;em&gt;Clean code can be read, and enhanced by a developer other than its original author. It has unit and acceptance tests. It has meaningful names. It provides one way rather than many ways for doing one thing. It has minimal dependencies, which are explicitly defined, and provides a clear and minimal API. Code should be literate since, depending on the language, not all necessary information can be expressed clearly in code alone.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Michael Feathers, author of Working Effectively with Legacy Code:&lt;/strong&gt;
+&lt;em&gt;I could list all of the qualities that I notice in clean code, but there is one overarching quality that leads to all of them. Clean code always looks like it was written by someone who cares. There is nothing obvious that you can do to make it better. All of those things were thought about by the code’s author, and if you try to imagine improvements, you are led back to where you are, sitting in appreciation of the code someone left for you—code written by someone who cared deeply about the craft.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Ward Cunningham, inventor of Wiki and Fit, co-inventor of Extreme Programming.&lt;/strong&gt;
+&lt;em&gt;You know you are working with clean code when each routine you read turns out to be pretty much what you expected. You can call it beautiful code when the code also makes it look like the language was made for the problem.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
 </content>
  </entry>
  
