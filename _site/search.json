@@ -2,23 +2,67 @@
   
     {
 
-      "title"    : "Clean code - [Part 2]",
-      "url"      : "/2020/07/01/clean-code-2",
+      "title"    : "Some powerful features of Python",
+      "url"      : "/2020/07/16/powerful-python-features",
       "category" : "",
-      "tags"     : "Clean-code",
-      "date"     : "2020-07-01 00:00:00 +0530",
-      "discription" : "Clean code - Chapter 2, 3"
+      "tags"     : "python",
+      "date"     : "2020-07-16 00:00:00 +0530",
+      "discription" : "Important python features"
 
     } ,
   
     {
 
-      "title"    : "Clean code - [Part 1]",
-      "url"      : "/2020/07/01/clean-code-1",
+      "title"    : "How to write clean code - 2",
+      "url"      : "/2020/03/10/clean-code-2",
       "category" : "",
       "tags"     : "Clean-code",
-      "date"     : "2020-07-01 00:00:00 +0530",
-      "discription" : "Clean code - Chapter 1"
+      "date"     : "2020-03-10 00:00:00 +0530",
+      "discription" : "Clean code - 2"
+
+    } ,
+  
+    {
+
+      "title"    : "How to write clean code - 1",
+      "url"      : "/2020/02/20/clean-code-1",
+      "category" : "",
+      "tags"     : "Clean-code, codestyling",
+      "date"     : "2020-02-20 00:00:00 +0530",
+      "discription" : "Clean code - 1"
+
+    } ,
+  
+    {
+
+      "title"    : "Django vs Flask - Comparison of the python web frameworks",
+      "url"      : "/2019/10/03/django-flask",
+      "category" : "",
+      "tags"     : "django, flask, python, web",
+      "date"     : "2019-10-03 00:00:00 +0530",
+      "discription" : "Comparison of the python web frameworks"
+
+    } ,
+  
+    {
+
+      "title"    : "What to expect when you meet your remote team first time",
+      "url"      : "/2019/03/29/meet-your-team",
+      "category" : "",
+      "tags"     : "experience",
+      "date"     : "2019-03-29 00:00:00 +0530",
+      "discription" : "A memoir on first team camp"
+
+    } ,
+  
+    {
+
+      "title"    : "Key takeaways as a remote intern",
+      "url"      : "/2019/01/02/remote-intern",
+      "category" : "",
+      "tags"     : "experience",
+      "date"     : "2019-01-02 00:00:00 +0530",
+      "discription" : "This is a documentation of my personal experience as a remote intern"
 
     } 
   
