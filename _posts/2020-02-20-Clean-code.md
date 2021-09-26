@@ -1,8 +1,8 @@
 ---
 layout: post
-title: How to write clean code - 1
+title: How to write clean code
 
-description: Clean code - 1
+description: Clean code
 summary: Clean Code Series
 tags: ["Clean-code","codestyling"]
 ---
@@ -54,3 +54,23 @@ Clean code has been defined in many ways. There are some mentions of what clean 
 - **Ward Cunningham, inventor of Wiki and Fit, co-inventor of Extreme Programming.**
 *You know you are working with clean code when each routine you read turns out to be pretty much what you expected. You can call it beautiful code when the code also makes it look like the language was made for the problem.*
 
+
+# Chapter 2: Naming
+Since naming is something that we as programmers are doing all the time, we better do it right. Here are couple of tips that Uncle Bob has for naming things.
+  - **Use Intention revealing names**
+  - **Avoid Disinformation** (Avoid any confusing names)
+  - **Make meaningful distinctions** (*Examples to avoid:* a1,a2... or money, moneyAmount)
+  - **Use pronouceable names**
+  - **Use Searchable Names**
+  - **Avoid Encodings**
+ Uncle Bob elaborated on this point mentioning that encoding type or scope information is a bad idea. He mentions multiple notations like - *Hungarian Notation, Member prefixes, Interfaces and Implementations.* 
+  - **Avoid Mental Mapping** (Avoid using single letter variables or anything that doesn't represent what it refers to)
+  - **Class names shouldn't be a verb**
+  - **Try starting method names with verbs**
+  - **Dont use clever or cute names which can only be understood by some**
+  - **Pick one word per concept**
+  - **Pick one concept per word**
+  - **Use solution domain words** (Use words comprehendable for any programmer)
+  - **Use problem domain words** (Use words specific to the problem to the relevant code)
+  - **Add meaningful context**
+  - **Avoid gratuitous context** (Dont add what you dont need to)

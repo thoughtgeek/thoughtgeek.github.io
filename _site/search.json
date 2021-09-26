@@ -13,23 +13,12 @@
   
     {
 
-      "title"    : "How to write clean code - 2",
-      "url"      : "/2020/03/10/clean-code-2",
-      "category" : "",
-      "tags"     : "Clean-code",
-      "date"     : "2020-03-10 00:00:00 +0530",
-      "discription" : "Clean code - 2"
-
-    } ,
-  
-    {
-
-      "title"    : "How to write clean code - 1",
-      "url"      : "/2020/02/20/clean-code-1",
+      "title"    : "How to write clean code",
+      "url"      : "/2020/02/20/clean-code",
       "category" : "",
       "tags"     : "Clean-code, codestyling",
       "date"     : "2020-02-20 00:00:00 +0530",
-      "discription" : "Clean code - 1"
+      "discription" : "Clean code"
 
     } ,
   
@@ -52,17 +41,6 @@
       "tags"     : "experience",
       "date"     : "2019-03-29 00:00:00 +0530",
       "discription" : "A memoir on first team camp"
-
-    } ,
-  
-    {
-
-      "title"    : "Key takeaways as a remote intern",
-      "url"      : "/2019/01/02/remote-intern",
-      "category" : "",
-      "tags"     : "experience",
-      "date"     : "2019-01-02 00:00:00 +0530",
-      "discription" : "This is a documentation of my personal experience as a remote intern"
 
     } 
   

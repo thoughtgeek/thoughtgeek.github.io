@@ -11,8 +11,6 @@ tags: [experience]
 
 *"Coming together is a beginning. Keeping together is progress. Working together is success."* - **Henry Ford**
 
-So after a week long team camp at Johor Bahru, Malaysia, I finally had a chance to pen down my thoughts about what it feels like to meet your remote team in person for the first time. As I mentioned in my [first blog post](https://blog.xoxzo.com/2019/01/02/key-takeaways-remote-intern/), I was taken in as an intern at [Xoxzo](https://www.xoxzo.com/en/) and I completed 3 months with them. However, being an intern you only have limited amount of communication with the team and after I was taken in as a full time member of the team, I was told that there would be a team camp held at JB where we would discuss strategy and work together for a week. It was an exciting proposition to be a part of the team camp where I could meet finally everyone in person who were just profile pictures on Slack for 3 months.
-
 I would share an outsider's view on working remotely with a multicultural, multinational team where you have colleagues who come from completely different places and backgrounds. You might be sceptical about fitting in a team which has such diversity. The reality was much different than I expected. The team had already been working together for quite a number of years and I was surprised by the warmth with which I was embraced in the envelope despite being a new hire. Here are couple of things I think you should expect when meeting your remote team for the first time in person.
 
 ### Be ready for a new experience
